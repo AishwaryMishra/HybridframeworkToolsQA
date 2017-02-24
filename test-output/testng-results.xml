@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67846" started-at="2017-02-23T01:58:18Z" finished-at="2017-02-23T01:59:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="67846" started-at="2017-02-23T01:58:18Z" finished-at="2017-02-23T01:59:25Z">
+      <class name="testcases.VerifyLogOutPage">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testcases.VerifyLogOutPage@6f7fd0e6]" name="setUP" is-config="true" duration-ms="11024" started-at="2017-02-23T07:28:59Z" finished-at="2017-02-23T07:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:testcases.VerifyLogOutPage@6f7fd0e6]" name="doLogin" duration-ms="13120" started-at="2017-02-23T07:29:10Z" finished-at="2017-02-23T07:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.VerifyLogOutPage@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="2477" started-at="2017-02-23T07:29:23Z" finished-at="2017-02-23T07:29:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doLogin status=SUCCESS method=VerifyLogOutPage.doLogin()[pri:0, instance:testcases.VerifyLogOutPage@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.VerifyLogOutPage -->
+      <class name="testcases.VerifyHomePage">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testcases.VerifyHomePage@59f99ea]" name="setUP" is-config="true" duration-ms="15356" started-at="2017-02-23T07:28:18Z" finished-at="2017-02-23T07:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="clickOnMyAccount()[pri:0, instance:testcases.VerifyHomePage@59f99ea]" name="clickOnMyAccount" duration-ms="4951" started-at="2017-02-23T07:28:33Z" finished-at="2017-02-23T07:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMyAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.VerifyHomePage@59f99ea]" name="tearDown" is-config="true" duration-ms="1418" started-at="2017-02-23T07:28:38Z" finished-at="2017-02-23T07:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.VerifyHomePage -->
+      <class name="testcases.VerifyLoginPage">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testcases.VerifyLoginPage@27efef64]" name="setUP" is-config="true" duration-ms="11193" started-at="2017-02-23T07:28:39Z" finished-at="2017-02-23T07:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:testcases.VerifyLoginPage@27efef64]" name="doLogin" duration-ms="7096" started-at="2017-02-23T07:28:51Z" finished-at="2017-02-23T07:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.VerifyLoginPage@27efef64]" name="tearDown" is-config="true" duration-ms="1118" started-at="2017-02-23T07:28:58Z" finished-at="2017-02-23T07:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.VerifyLoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
